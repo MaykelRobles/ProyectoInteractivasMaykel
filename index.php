@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-lg navColor">
     <div class="container-fluid">
-        <a href="../index.php"><div class="logo"></div></a>
+        <a href="../index.html"><div class="logo"></div></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.php">Home</a>
+                    <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./html/detail.php" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="./html/detail.html" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </a>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col" href="./html/detail.php">
+                <a class="col" href="./html/detail.html">
                     <div class="containerActivity2">
                         <div class="containerInfo">
                             <h2 class="subTitle">Poppy</h2>
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col" href="./html/detail.php">
+                <a class="col" href="./html/detail.html">
                     <div class="containerActivity3">
                         <div class="containerInfo">
                             <h2 class="subTitle">Melanie</h2>
@@ -237,7 +237,8 @@
 
             <div class="socials">
                 <ul class="footerNavigator">
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square"></i></a>
+                    
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
                     </li>
                     <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"></i></a></li>
                     <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter"></i></a></li>
