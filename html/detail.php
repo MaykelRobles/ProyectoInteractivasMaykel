@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg navColor">
         <div class="container-fluid">
-            <a href="../index.html"><div class="logo"></div></a>
+            <a href="../index.php"><div class="logo"></div></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="../html/detail.html" id="navbarDropdown" role="button"
@@ -98,7 +98,7 @@
         </div>
 
         <div class="containerBttnRegistro">
-            <a class="col-5" href="../html/registrarse.html">
+            <a class="col-5" href="../html/registrarse.php">
                 <div class="botonRegistrarse">
                     <p class="textBoton">REGISTRARSE</p>
                 </div>
