@@ -123,8 +123,8 @@
                         <div class="circulo"></div>
                     </div>
                     <p class="footertext">Evento Relacionado</p>
+                </a>
             </div>
-            </a>
 
         </div>
     </main>
