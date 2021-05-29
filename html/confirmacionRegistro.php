@@ -49,21 +49,19 @@
 <!--Body-->
 
 <body>
-
-    <!--Main-->
-    <main>
+<main>
         <div class="container-fluid spacerRegistro">
             <div class="containerRegistro">
 
                 <h1 class="titlesRegistro">Confirmacion de Registro</h1>
 
                 <div class="containerConfInfo">
-                    <input class="obtenerInfo text" placeholder="Nombre Completo"></input>
+                    <input class="obtenerInfo textDark" type="text" name="nombre" id="nombre"  placeholder="Nombre Completo" aria-label="nombre"></input>
                 </div>
                 <div class="lines"></div>
 
                 <div class="containerConfInfo">
-                    <input class="obtenerInfo text" placeholder="Email"></input>
+                    <input class="obtenerInfo textDark" type="Email" name="email" id="email"  placeholder="Email" aria-label="email"></input>
                 </div>
 
                 <div class="lines"></div>
@@ -72,11 +70,11 @@
                     <div class="row">
 
                         <div class="col">
-                            <input class="obtenerInfo text" placeholder="Cedula"></input>
+                            <input class="obtenerInfo textDark" type="text" name="cedula" id="cedula" placeholder="Cedula" aria-label="cedula"></input>
                         </div>
 
                         <div class="col">
-                            <input class="obtenerInfo text" placeholder="Numero Telefonico"></input>
+                            <input class="obtenerInfo textDark" type="text" name="numeroTel" id="numeroTel" placeholder="Numero Telefonico" aria-label="numeroTel"></input>
                         </div>
                     </div>
                 </div>
@@ -86,28 +84,26 @@
 
                 <div class="containerConfInfo">
                     <div class="row">
-                        
-                    <div class="col">
-                            <label type="submit" class="textRegistro">
-                                <input class="obtenerInfo text" placeholder="Tarjeta"></input>
-                            </label>
+
+                        <div class="col">
+                                <input class="obtenerInfo textDark" type="text" name="tarjeta" id="tarjeta" placeholder="Tarjeta" aria-label="tarjeta"></input>
                         </div>
 
                         <div class="col-3">
-                            <input class="obtenerInfo text" placeholder="Pin de seguridad"></input>
+                                <input class="obtenerInfo textDark" type="password" name="Pin" id="Pin" placeholder="Pin de seguridad" aria-label="Pin de seguridad"></input>
+                        </div>
                         </div>
                     </div>
                 </div>
 
-            </div>
 
             <div class="row">
 
-                <a class="col nextbackBttn" href="../html/registrarse.php">
+                <a class="col nextbackBttn" href="../html/registrarse.html">
                     <img class="nextbtn" alt="Imagen de boton para regresar" src="../imgs/antras.png">
                 </a>
 
-                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.php">
+                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.html">
                     <img class="nextbtn" alt="Imagen de boton para seguir" src="../imgs/adelante.png">
                 </a>
             </div>
