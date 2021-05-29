@@ -119,12 +119,8 @@
                             <label type="submit" class="numPer numPerPad" id="number" alt="Numero adult"></label>
                         </div>
 
-                        <div class="col-1">
-                            <p class="textRegistro">Niño</p>
-                        </div>
-
                         <div class="col">
-                            <label type="submit" class="text">
+                            <label type="submit" class="text">Niño
                             <input class="numPer numPerPad"></input>
                             </label>
                         </div>
