@@ -1,0 +1,1034 @@
+body {
+  background-color: #76bd9c;
+}
+
+.logo {
+  background-image: url(../imgs/Logo.png);
+  width: 3.1em;
+  height: 1.7em;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #FFFBDF;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.spacer {
+  padding: 2em 0 0 2.2em;
+}
+@media only screen and (max-width: 480px) {
+  .spacer {
+    padding: 2em 0 0 1.4em;
+  }
+}
+
+.spacerRegistro {
+  padding: 2em 0 0 3em;
+}
+
+.navColor {
+  background-color: #334443;
+}
+
+.photoHeader {
+  background-image: url(../imgs/Intro.jpg);
+  width: 100%;
+  height: 287px;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  padding: 1em 16.5em;
+}
+@media only screen and (max-width: 480px) {
+  .photoHeader {
+    height: 152px;
+    padding: 0;
+  }
+}
+.titles {
+  font-size: 42pt;
+  color: #34656D;
+  border-bottom: 5px solid #FFFBDF;
+  margin: 2em 0.6em 1em;
+  font-family: "Trade Winds";
+}
+@media only screen and (max-width: 480px) {
+  .titles {
+    font-size: 21pt;
+    border-bottom: 2px solid #FFFBDF;
+    margin: 1em 0.6em 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .titles {
+    font-size: 32pt;
+    margin: 1em 0.6em 0.5em;
+  }
+}
+
+.containerActivity {
+  width: 100%;
+  height: 29em;
+  overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivity {
+    width: 100%;
+    height: 15.5em;
+    padding: 0 1em 0 0px;
+  }
+}
+
+.containerActivityA {
+  width: 100%;
+  height: 13em;
+  overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivityA {
+    width: 100%;
+    height: 7em;
+  }
+}
+
+.containerActivityB {
+  width: 100%;
+  height: 15em;
+  overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivityB {
+    width: 100%;
+    height: 10em;
+  }
+}
+
+.containerActivity1 {
+  width: 401px;
+  height: 406px;
+  overflow: hidden;
+  background-image: url(../imgs/artista1.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivity1 {
+    width: 105px;
+    height: 208px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerActivity1 {
+    width: 215px;
+  }
+}
+
+.containerActivity2 {
+  width: 401px;
+  height: 406px;
+  overflow: hidden;
+  background-image: url(../imgs/artista2.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivity2 {
+    width: 105px;
+    height: 208px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerActivity2 {
+    width: 215px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    margin: 0;
+  }
+}
+
+.containerActivity3 {
+  width: 401px;
+  height: 406px;
+  overflow: hidden;
+  background-image: url(../imgs/artista3.png);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerActivity3 {
+    width: 105px;
+    height: 208px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerActivity3 {
+    width: 215px;
+  }
+}
+
+.lugarpad {
+  padding: 0 0 0 5.3em;
+}
+
+.containerInfo {
+  width: 100%;
+  height: 165px;
+  margin: 15.5em 0 0 0;
+  padding: 0 1em;
+}
+@media only screen and (max-width: 480px) {
+  .containerInfo {
+    height: 10px;
+    margin: 6.5em 0 0 0;
+    padding: 0 0.5em;
+  }
+}
+
+.containerSubAct {
+  width: 100%;
+  height: 6em;
+  margin: 0.5em 0em 0em 0;
+}
+@media only screen and (max-width: 480px) {
+  .containerSubAct {
+    height: 1em;
+    margin: 0.5em 0em 1em 0;
+  }
+}
+
+.containerSubAct5 {
+  width: 837px;
+  height: 142px;
+  overflow: hidden;
+  margin: 0em 0.9em 0em 0em;
+  padding: 0 1em;
+  background-image: url(../imgs/artista5.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerSubAct5 {
+    width: 157px;
+    height: 66px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerSubAct5 {
+    width: 458px;
+  }
+}
+
+.containerSubAct6 {
+  width: 837px;
+  height: 142px;
+  overflow: hidden;
+  padding: 0 1em;
+  background-image: url(../imgs/artista6.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerSubAct6 {
+    width: 157px;
+    height: 66px;
+    margin: 0em 0em 0em 3.7em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerSubAct6 {
+    width: 458px;
+  }
+}
+
+.containerSubAct4 {
+  width: 404.494px;
+  height: 142px;
+  overflow: hidden;
+  background-image: url(../imgs/artista4.jpg);
+  border-radius: 1em;
+  padding: 0 1em;
+  margin: 0em 0 0 1.5em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerSubAct4 {
+    width: 157px;
+    height: 66px;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerSubAct4 {
+    width: 215px;
+    margin: 0em 0 0 1em;
+  }
+}
+
+.containerSubAct7 {
+  width: 404.494px;
+  height: 142px;
+  overflow: hidden;
+  background-image: url(../imgs/artista7.jpg);
+  border-radius: 1em;
+  padding: 0 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerSubAct7 {
+    width: 157px;
+    height: 66px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerSubAct7 {
+    width: 215px;
+  }
+}
+
+.containerLugar {
+  width: 837px;
+  height: 4.4em;
+  overflow: hidden;
+  margin: 0em 0.9em 0em 0em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerLugar {
+    width: 10em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerLugar {
+    width: 430px;
+  }
+}
+
+.containerLugarSmall {
+  width: 404.494px;
+  height: 4.4em;
+  overflow: hidden;
+}
+@media only screen and (max-width: 480px) {
+  .containerLugarSmall {
+    width: 6.5em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerLugarSmall {
+    width: 215px;
+  }
+}
+
+.containerFecha {
+  margin: 0 0 0 -9px;
+}
+@media only screen and (max-width: 480px) {
+  .containerFecha {
+    margin: 0 0 0 -1.3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerFecha {
+    margin: 0 0 0 -2.5em;
+  }
+}
+
+.containerFechaLarge {
+  margin: 0 0 0 2.7em;
+}
+@media only screen and (max-width: 480px) {
+  .containerFechaLarge {
+    margin: 0 0 0 -1.8em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerFechaLarge {
+    margin: 0 0 0 -1.2em;
+  }
+}
+
+.containerFechaSmall {
+  margin: 0 0 0 0.4em;
+}
+@media only screen and (max-width: 480px) {
+  .containerFechaSmall {
+    margin: 0 0 0 -1.3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerFechaSmall {
+    margin: 0 0 0 -1.9em;
+  }
+}
+
+.subTitle {
+  font-size: 25pt;
+  color: #FFFBDF;
+  text-align: center;
+  font-family: "Righteous";
+}
+@media only screen and (max-width: 480px) {
+  .subTitle {
+    font-size: 10pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .subTitle {
+    font-size: 16pt;
+  }
+}
+
+.textInfo {
+  font-size: 16pt;
+  color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textInfo {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textInfo {
+    font-size: 14pt;
+  }
+}
+
+.textInfoDark {
+  font-size: 16pt;
+  color: #34656D;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textInfoDark {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textInfoDark {
+    font-size: 14pt;
+  }
+}
+
+.text {
+  font-size: 12pt;
+  color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .text {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .text {
+    font-size: 12pt;
+  }
+}
+
+.textDark {
+  font-size: 12pt;
+  color: #34656D;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textDark {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textDark {
+    font-size: 12pt;
+  }
+}
+
+.textDetail {
+  font-size: 21pt;
+  color: #FFFBDF;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textDetail {
+    font-size: 12pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textDetail {
+    font-size: 16pt;
+  }
+}
+
+.contairnerCategoryDetail {
+  width: 822px;
+  height: 62px;
+  background-color: #FFFBDF;
+  padding: 0.4em 0;
+  opacity: 75%;
+}
+@media only screen and (max-width: 480px) {
+  .contairnerCategoryDetail {
+    width: 100%;
+    height: 2.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .contairnerCategoryDetail {
+    height: 3em;
+    width: 15em;
+  }
+}
+
+.titleCategory {
+  font-size: 28pt;
+  color: #34656D;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .titleCategory {
+    font-size: 12pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .titleCategory {
+    font-size: 20pt;
+  }
+}
+
+.containerCosto {
+  height: 69px;
+  width: 241px;
+  background-color: #34656D;
+  padding: 1em 0em;
+  margin: 8em 0em 0 51em;
+  opacity: 75%;
+}
+@media only screen and (max-width: 480px) {
+  .containerCosto {
+    height: 2.9em;
+    width: 7em;
+    margin: 3.7em 0em 0 15em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerCosto {
+    height: 3em;
+    width: 10em;
+    margin: 10em 0em 0 21em;
+  }
+}
+
+.containerDetail {
+  width: 100%;
+  height: 23em;
+}
+@media only screen and (max-width: 480px) {
+  .containerDetail {
+    width: 20em;
+    height: 50em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerDetail {
+    height: 60em;
+  }
+}
+
+.detailFoto {
+  height: 401px;
+  width: 407px;
+  background-color: #76bd9c;
+  border-radius: 1em;
+}
+@media only screen and (max-width: 480px) {
+  .detailFoto {
+    width: 20em;
+    height: 20em;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .detailFoto {
+    width: 44em;
+    height: 44em;
+    border-radius: 0;
+  }
+}
+
+.containerDetailInfo {
+  width: 825px;
+  height: 401px;
+  background-image: url(../imgs/infopop.png);
+  background-color: #34656D;
+  padding: 2em 3em;
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .containerDetailInfo {
+    width: 20em;
+    height: 25em;
+    border-radius: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerDetailInfo {
+    width: 44em;
+    height: 20em;
+    border-radius: 0;
+  }
+}
+
+.containerBttnRegistro {
+  width: 100%;
+  height: 460px;
+  background-color: #34656D;
+  padding: 4em 15em;
+  margin: 10em 5em 0 0;
+}
+@media only screen and (max-width: 480px) {
+  .containerBttnRegistro {
+    margin: 0;
+    padding: 3em 2em;
+    height: 15em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerBttnRegistro {
+    padding: 4em 4em;
+  }
+}
+
+.botonRegistrarse {
+  width: 193px;
+  height: 77px;
+  background-color: #FFFBDF;
+  border-radius: 1.5em;
+  padding: 0.7em 0.4em;
+  margin: 0em 21em 9em;
+  border: solid;
+  border-color: #76bd9c;
+  border-width: 10px;
+}
+@media only screen and (max-width: 480px) {
+  .botonRegistrarse {
+    width: 193px;
+    height: 77px;
+    padding: 0.7em 0.4em;
+    margin: 0em 3.7em 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .botonRegistrarse {
+    margin: 0em 13em 5em;
+  }
+}
+
+.textBoton {
+  font-size: 18pt;
+  color: #34656D;
+  font-family: "Righteous";
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../imgs/artista6.jpg);
+  padding: 1em 0;
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-width: 480px) {
+  .circulo {
+    width: 3em;
+    height: 3em;
+  }
+}
+
+.containerEventosRelacionados {
+  width: 5em;
+  height: 7em;
+  padding: 0em 0 0 6em;
+}
+@media only screen and (max-width: 480px) {
+  .containerEventosRelacionados {
+    width: 0;
+    height: 4em;
+    padding: 0em 0 0 1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerEventosRelacionados {
+    padding: 0em 0 0 3em;
+  }
+}
+
+.containerDescription {
+  width: 100%;
+  height: 12em;
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerDescription {
+    height: 10em;
+  }
+}
+
+.containerRegistro {
+  width: 1256px;
+  height: 35em;
+  background-color: #34656D;
+  border-radius: 3em;
+}
+@media only screen and (max-width: 480px) {
+  .containerRegistro {
+    width: 17em;
+    height: 27.7em;
+    padding: 0 1.5em 0 1em;
+    margin: 0 0 0.7em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerRegistro {
+    width: 42em;
+    height: 34em;
+  }
+}
+
+.containerTolal {
+  height: 6em;
+  width: 100%;
+  padding: 0 0 0 36em;
+}
+@media only screen and (max-width: 480px) {
+  .containerTolal {
+    padding: 0 0 0 6.6em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerTolal {
+    padding: 0 0 0 17em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .nextbtn {
+    width: 3em;
+  }
+}
+
+.lines {
+  width: 98%;
+  height: 3px;
+  background-color: #FFFBDF;
+  margin: 1em 12px;
+}
+@media only screen and (max-width: 480px) {
+  .lines {
+    height: 2px;
+    margin: 0em 12px;
+  }
+}
+
+.nextbackBttn {
+  padding: 1em 0;
+}
+@media only screen and (max-width: 480px) {
+  .nextbackBttn {
+    padding: 0em 5.5em 1.1em 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .nextbackBttn {
+    padding: 3em 7.5em 10.1em 0em;
+  }
+}
+
+.containerResumen {
+  width: 1256px;
+  height: 58em;
+  background-color: #34656D;
+  border-radius: 3em;
+  padding: 0 2.5em 0 2em;
+  margin: 0 0 5em;
+}
+@media only screen and (max-width: 480px) {
+  .containerResumen {
+    width: 17em;
+    height: 37em;
+    padding: 0 1.5em 0 1em;
+    margin: 0 0 2.7em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerResumen {
+    width: 42em;
+    height: 55em;
+    margin: 0 0 3em;
+  }
+}
+
+.containerRegistroInfo {
+  width: 78.5em;
+  height: 5em;
+  padding: 0em 2em 0em 2em;
+}
+@media only screen and (max-width: 480px) {
+  .containerRegistroInfo {
+    width: 14.5em;
+    height: 6em;
+    padding: 0.5em 0em 0em 0em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerRegistroInfo {
+    width: 41em;
+  }
+}
+
+.containerConfInfo {
+  width: 78.5em;
+  height: 5.4em;
+  padding: 1em 2em 0em 2em;
+}
+@media only screen and (max-width: 480px) {
+  .containerConfInfo {
+    width: 14.5em;
+    height: 5em;
+    padding: 0.5em 0em 0em 0em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerConfInfo {
+    width: 41em;
+    height: 5.4em;
+  }
+}
+
+.titlesRegistro {
+  font-size: 32pt;
+  color: #FFFBDF;
+  border-bottom: 5px solid;
+  text-align: center;
+  padding: 0.4em 0 0.4em 0;
+  border-bottom: solid;
+  font-family: "Trade Winds";
+}
+@media only screen and (max-width: 480px) {
+  .titlesRegistro {
+    font-size: 12pt;
+    border-bottom: 2px solid;
+    padding: 1em 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .titlesRegistro {
+    font-size: 21pt;
+    padding: 1em 0 0.6em 0;
+  }
+}
+
+.textRegistro {
+  font-size: 18pt;
+  color: #FFFBDF;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textRegistro {
+    font-size: 9pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textRegistro {
+    font-size: 14pt;
+  }
+}
+
+.subTitulleRegistro {
+  font-size: 18pt;
+  color: #FFFBDF;
+}
+@media only screen and (max-width: 480px) {
+  .subTitulleRegistro {
+    font-size: 10pt;
+    padding: 0 2em 0 0;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .subTitulleRegistro {
+    font-size: 16pt;
+  }
+}
+
+.textCostoTotal {
+  font-size: 26pt;
+  color: #FFFBDF;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .textCostoTotal {
+    font-size: 12pt;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .textCostoTotal {
+    font-size: 18pt;
+  }
+}
+
+.numPer {
+  height: 42px;
+  width: 308px;
+  border-radius: 1em;
+  background-color: #FFFBDF;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .numPer {
+    height: 12px;
+    width: 31px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .numPer {
+    height: 27px;
+    width: 115px;
+  }
+}
+
+.containerFechaR {
+  padding: 0 0 0 25em;
+}
+@media only screen and (max-width: 480px) {
+  .containerFechaR {
+    padding: 0 0 0 3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .containerFechaR {
+    padding: 0 0 0 10em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .numPerPad {
+    margin: 0 0 0 1.3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .numPerPad {
+    margin: 0 0 0 1.3em;
+  }
+}
+
+.obtenerInfo {
+  width: 100%;
+  height: 42px;
+  margin: 0.4em 0 0.4em;
+  border-radius: 1em;
+  background-color: #FFFBDF;
+  text-align: center;
+}
+@media only screen and (max-width: 480px) {
+  .obtenerInfo {
+    height: 22px;
+    margin: 2em 0 3em 0.5em;
+  }
+}
+
+.qr {
+  padding: 0.4em 0em 0 9.5em;
+}
+@media only screen and (max-width: 480px) {
+  .qr {
+    padding: 0;
+    width: 1.5em;
+    margin: 0em 0 0 2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .qr {
+    padding: 0.4em 0em 0 3.3em;
+  }
+}
+
+.footertext {
+  text-align: center;
+  font-size: 12pt;
+  color: #FFFBDF;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 480px) {
+  .footertext {
+    font-size: 0pt;
+    text-align: left;
+  }
+}
+
+.socials {
+  height: 2.4em;
+}
+@media only screen and (max-width: 480px) {
+  .socials {
+    height: 0.4em;
+  }
+}
+
+.footerItem {
+  display: inline;
+}
+
+.footerLink {
+  padding: 0.4em;
+  color: #ffffff;
+  font-size: 1.3em;
+}
+@media only screen and (max-width: 480px) {
+  .footerLink {
+    font-size: 1em;
+  }
+}
+
+.footerNavigator {
+  margin: auto;
+  width: 10.5em;
+}
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background-color: #334443;
+  padding: 0.4em 0 0 0;
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    height: 4em;
+  }
+}

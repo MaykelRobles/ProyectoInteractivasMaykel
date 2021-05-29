@@ -1,0 +1,876 @@
+
+@import 'media-queries';
+
+$crema: #FFFBDF;
+$verde: #76bd9c;
+$azul:#34656D ;
+$navy:#334443 ;
+$mainMargin:margin 2em 2em;
+
+body{
+    background-color: $verde;
+}
+
+.logo{
+  background-image: url(../imgs/Logo.png);
+  width: 3.1em;
+  height: 1.7em;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: $crema;
+}
+
+  .row{
+  --bs-gutter-x: 0;
+  }
+
+
+  a{
+  text-decoration: none;
+  }
+
+.spacer{
+  padding: 2em 0 0 2.2em;
+  @include respond-to($phone){
+    padding: 2em 0 0 1.4em;
+  }
+}
+
+.spacerRegistro{
+  padding: 2em 0 0 3em;
+}
+
+.navColor{
+    background-color: $navy;
+}
+
+//index
+
+.photoHeader{
+    background-image: url(../imgs/Intro.jpg);
+    width: 100%;
+    height: 287px;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    padding: 1em 16.5em;
+    @include respond-to($phone){
+      height: 152px;
+      padding: 0;
+    }
+    @include respond-to($tablet-landscape){
+    }
+}
+
+.titles{
+    font-size: 42pt;
+    color: $azul;
+    border-bottom: 5px solid $crema;
+    margin: 2em .6em 1em;
+    font-family: 'Trade Winds';
+    @include respond-to($phone){
+      font-size: 21pt;
+      border-bottom: 2px solid $crema;
+      margin: 1em .6em 0;
+    }
+    @include respond-to($tablet-landscape){
+      font-size: 32pt;
+      margin: 1em 0.6em .5em
+    }
+}
+
+.containerActivity{
+  width: 100%;
+  height: 29em;
+  overflow:hidden;
+  @include respond-to($phone){
+    width: 100%;
+    height: 15.5em;
+    padding: 0 1em 0 0px;
+  }
+}
+
+.containerActivityA{
+  width: 100%;
+  height: 13em;
+  overflow:hidden;
+  @include respond-to($phone){
+    width: 100%;
+    height: 7em;
+  }
+}
+
+
+.containerActivityB{
+  width: 100%;
+  height: 15em;
+  overflow:hidden;
+  @include respond-to($phone){
+    width: 100%;
+    height: 10em;
+  }
+}
+
+
+.containerActivity1{
+    width: 401px;
+    height: 406px;
+    overflow:hidden;
+    background-image: url(../imgs/artista1.jpg);
+    border-radius: 1em;
+    background-size: cover;
+    background-position: center;
+    @include respond-to($phone){
+      width: 105px;
+      height: 208px;
+    }
+    @include respond-to($tablet-landscape){
+      width: 215px;
+    }
+}
+
+.containerActivity2{
+  width: 401px;
+  height: 406px;
+  overflow:hidden;
+  background-image: url(../imgs/artista2.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 105px;
+    height: 208px;
+  }
+  @include respond-to($tablet-landscape){
+    width: 215px;
+  }
+}
+
+p{
+  @include respond-to($phone){
+  margin: 0;
+  }
+}
+
+.containerActivity3{
+  width: 401px;
+  height: 406px;
+  overflow:hidden;
+  background-image: url(../imgs/artista3.png);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 105px;
+    height: 208px;
+  }
+  @include respond-to($tablet-landscape){
+    width: 215px;
+  }
+}
+
+.lugarpad{
+  padding: 0 0 0 5.3em;
+}
+
+
+  .containerInfo{
+    width: 100%;
+    height: 165px;
+    margin: 15.5em 0 0 0;
+    padding: 0 1em;
+    @include respond-to($phone){
+      height: 10px;
+      margin: 6.5em 0 0 0;
+      padding: 0 .5em;
+    }
+  }
+
+  .containerSubAct{
+    width: 100%;
+    height: 6em;
+    margin: .5em 0em 0em 0;
+
+    @include respond-to($phone){
+      height: 1em;
+      margin: .5em 0em 1em 0;
+    }
+  }
+  
+  
+.containerSubAct5{
+    width: 837px;
+    height: 142px;
+    overflow:hidden;
+    margin: 0em .9em 0em 0em;
+    padding: 0 1em;
+    background-image: url(../imgs/artista5.jpg);
+    border-radius: 1em;
+    background-size: cover;
+    background-position: center;
+    @include respond-to($phone){
+      width: 157px;
+      height: 66px;
+    }
+    @include respond-to($tablet-landscape){
+      width: 458px;
+    }
+}
+
+.containerSubAct6{
+  width: 837px;
+  height: 142px;
+  overflow:hidden;
+  padding: 0 1em;
+  background-image: url(../imgs/artista6.jpg);
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 157px;
+    height: 66px;
+    margin: 0em 0em 0em 3.7em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 458px;
+  }
+}
+
+.containerSubAct4{
+    width: 404.494px;
+    height: 142px;
+    overflow:hidden;
+    background-image: url(../imgs/artista4.jpg);
+    border-radius: 1em;
+    padding: 0 1em;
+    margin: 0em 0 0 1.5em;
+    background-size: cover;
+    background-position: center;
+    @include respond-to($phone){
+      width: 157px;
+      height: 66px;
+      margin: 0;
+    }
+    @include respond-to($tablet-landscape){
+      width: 215px;
+      margin: 0em 0 0 1em;
+    }
+}
+
+.containerSubAct7{
+  width: 404.494px;
+  height: 142px;
+  overflow:hidden;
+  background-image: url(../imgs/artista7.jpg);
+  border-radius: 1em;
+  padding: 0 1em;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 157px;
+    height: 66px;
+  }
+  @include respond-to($tablet-landscape){
+    width: 215px;
+  }
+}
+
+.containerLugar{
+  width: 837px;
+  height: 4.4em;
+  overflow:hidden;
+  margin: 0em .9em 0em 0em;
+      background-size: cover;
+    background-position: center;
+  @include respond-to($phone){
+    width: 10em;
+    height: 2em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 430px;
+  }
+}
+
+.containerLugarSmall{
+  width: 404.494px;
+  height: 4.4em;
+  overflow:hidden;
+  @include respond-to($phone){
+    width: 6.5em;
+    height: 2em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 215px;
+  }
+}
+
+.containerFecha{
+  margin: 0 0 0 -9px;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.3em;
+  }
+  @include respond-to($tablet-landscape){
+    margin: 0 0 0 -2.5em;
+  }
+}
+
+.containerFechaLarge{
+  margin: 0 0 0 2.7em;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.8em;
+  }
+  @include respond-to($tablet-landscape){
+    margin: 0 0 0 -1.2em;
+  }
+}
+
+.containerFechaSmall{
+  margin: 0 0 0 .4em;
+  @include respond-to($phone){
+    margin: 0 0 0 -1.3em;
+  }
+  @include respond-to($tablet-landscape){
+    margin: 0 0 0 -1.9em;
+  }
+}
+
+.subTitle{
+  font-size: 25pt;
+  color: $crema;
+  text-align: center;
+  font-family: 'Righteous';
+  @include respond-to($phone){
+    font-size: 10pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 16pt;
+  }
+}
+
+.textInfo{
+  font-size: 16pt;
+  color: $crema;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 14pt;
+  }
+}
+
+.textInfoDark{
+  font-size: 16pt;
+  color: $azul;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 14pt;
+  }   
+}
+
+.text{
+  font-size: 12pt;
+  color: $crema;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 12pt;
+  }
+}
+
+.textDark{
+  font-size: 12pt;
+  color: $azul;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 12pt;
+  }
+}
+
+.textDetail{
+  font-size: 21pt;
+  color: $crema;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 12pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 16pt;
+  }
+}
+
+
+//Pagina detalle
+
+.contairnerCategoryDetail{
+  width: 822px;
+  height: 62px;
+  background-color: $crema;
+  padding: .4em 0;
+  opacity: 75%;
+  @include respond-to($phone){
+    width: 100%;
+    height: 2.5em;
+  }
+  @include respond-to($tablet-landscape){
+    height: 3em;
+    width: 15em;
+  }
+}
+
+.titleCategory{
+  font-size: 28pt;
+  color: $azul;
+  text-align: center;
+  @include respond-to($phone){
+    font-size: 12pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 20pt;
+  }
+}
+
+.containerCosto{
+  height: 69px;
+  width: 241px;
+  background-color: $azul;
+  padding: 1em 0em;
+  margin: 8em 0em 0 51em;
+  opacity: 75%;
+  @include respond-to($phone){
+    height: 2.9em;
+    width: 7em;
+    margin: 3.7em 0em 0 15em;
+  }
+  @include respond-to($tablet-landscape){
+    height: 3em;
+    width: 10em;
+    margin: 10em 0em 0 21em;
+  }
+}
+
+.containerDetail{
+  width: 100%;
+  height: 23em;
+  @include respond-to($phone){
+    width: 20em;
+    height: 50em;
+  }
+  @include respond-to($tablet-landscape){
+    height: 60em;
+  }
+}
+
+
+.detailFoto{
+  height: 401px;
+  width: 407px;
+  background-color: $verde;
+  border-radius: 1em;
+  @include respond-to($phone){
+    width: 20em;
+    height: 20em;
+    border-radius: 0;
+  }
+  @include respond-to($tablet-landscape){
+    width: 44em;
+    height: 44em;
+    border-radius: 0;
+  }
+}
+
+.containerDetailInfo{
+  width: 825px;
+  height: 401px;
+  background-image: url(../imgs/infopop.png);
+  background-color: $azul;
+  padding: 2em 3em;
+  border-radius: 1em;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 20em;
+    height: 25em;
+    border-radius: 0;
+  }
+  @include respond-to($tablet-landscape){
+    width: 44em;
+    height: 20em;
+    border-radius: 0;
+  }
+}
+
+
+.containerBttnRegistro{
+  width: 100%;
+  height: 460px;
+  background-color: $azul;
+  padding: 4em 15em;
+  margin: 10em 5em 0 0;
+  @include respond-to($phone){
+    margin: 0;
+    padding: 3em 2em;
+    height: 15em;
+  }
+  @include respond-to($tablet-landscape){
+    padding: 4em 4em;
+  }
+}
+
+.botonRegistrarse{
+  width: 193px ;
+  height: 77px;
+  background-color: $crema;
+  border-radius: 1.5em;
+  padding: .7em .4em;
+  margin: 0em 21em 9em;
+  border: solid;
+  border-color: $verde;
+  border-width: 10px;
+  @include respond-to($phone){
+    width: 193px ;
+    height: 77px;
+    padding: 0.7em 0.4em;
+    margin: 0em 3.7em 2em;
+  }
+  @include respond-to($tablet-landscape){
+    margin: 0em 13em 5em;
+  }
+}
+
+.textBoton{
+  font-size: 18pt;
+  color: $azul;
+  font-family: 'Righteous';
+}
+
+.circulo {
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: url(../imgs/artista6.jpg);
+  padding: 1em 0;
+  background-size: cover;
+  background-position: center;
+  @include respond-to($phone){
+    width: 3em ;
+    height: 3em;
+  }
+}
+
+.containerEventosRelacionados{
+  width: 5em;
+  height: 7em;
+  padding: 0em 0 0 6em;
+  @include respond-to($phone){
+    width: 0;
+    height: 4em;
+    padding: 0em 0 0 1em;
+  }
+  @include respond-to($tablet-landscape){
+    padding: 0em 0 0 3em;
+  }
+}
+
+.containerDescription{
+  width: 100%;
+  height: 12em;
+  @include respond-to($tablet-landscape){
+    height: 10em;
+  }
+}
+
+
+
+//Registro
+
+.containerRegistro{
+  width: 1256px;
+  height: 35em;
+  background-color:  $azul;
+  border-radius: 3em;
+  @include respond-to($phone){
+    width: 17em;
+    height: 27.7em;
+    padding: 0 1.5em 0 1em;
+    margin: 0 0 0.7em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 42em;
+    height: 34em;
+  }
+}
+
+.containerTolal{
+  height: 6em;
+  width: 100%;
+  padding: 0 0 0 36em;
+  @include respond-to($phone){
+    padding: 0 0 0 6.6em;
+    height: 2em;
+  }
+  @include respond-to($tablet-landscape){
+    padding: 0 0 0 17em;
+  }
+}
+
+.nextbtn{
+  @include respond-to($phone){
+    width:3em;
+  }
+}
+
+.lines{
+  width: 98%;
+  height: 3px;
+  background-color: $crema;
+  margin: 1em 12px;
+  @include respond-to($phone){
+    height: 2px;
+    margin: 0em 12px;
+  }
+}
+
+.nextbackBttn{
+  padding: 1em 0;
+    @include respond-to($phone){
+      padding: 0em 5.5em 1.1em 0;
+  }
+  @include respond-to($tablet-landscape){
+    padding: 3em 7.5em 10.1em 0em;
+  }
+}
+
+.containerResumen{
+  width: 1256px;
+  height: 58em;
+  background-color: $azul;
+  border-radius: 3em;
+  padding: 0 2.5em 0 2em;
+  margin: 0 0 5em;
+  @include respond-to($phone){
+    width: 17em;
+    height: 37em;
+    padding: 0 1.5em 0 1em;
+    margin: 0 0 2.7em;
+  }
+  @include respond-to($tablet-landscape){
+    width:42em;
+    height: 55em;
+    margin: 0 0 3em;
+  }
+}
+
+.containerRegistroInfo{
+  width: 78.5em;
+  height: 5em;
+  padding: 0em 2em 0em 2em;
+  @include respond-to($phone){
+    width: 14.5em;
+    height: 6em;
+    padding:.5em 0em 0em 0em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 41em;
+  }
+}
+
+.containerConfInfo{
+  width: 78.5em;
+  height: 5.4em;
+  padding: 1em 2em 0em 2em;
+  @include respond-to($phone){
+    width: 14.5em;
+    height: 5em;
+    padding:.5em 0em 0em 0em;
+  }
+  @include respond-to($tablet-landscape){
+    width: 41em;
+    height: 5.4em;
+  }
+}
+
+.titlesRegistro{
+  font-size: 32pt;
+  color: $crema;
+  border-bottom: 5px solid;
+  text-align: center;
+  padding: .4em 0 .4em 0;
+  border-bottom: solid;
+  font-family: 'Trade Winds';
+  @include respond-to($phone){
+    font-size: 12pt;
+    border-bottom: 2px solid;
+    padding: 1em 0;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 21pt;
+    padding: 1em 0 .6em 0;
+  }
+}
+
+.textRegistro{
+  font-size: 18pt;
+  color: $crema;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 9pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 14pt;
+  }
+}
+
+.subTitulleRegistro{
+  font-size: 18pt;
+  color: $crema;
+  @include respond-to($phone){
+    font-size: 10pt;
+    padding: 0 2em 0 0 ;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 16pt;
+  }
+}
+
+.textCostoTotal{
+  font-size: 26pt;
+  color: $crema;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  @include respond-to($phone){
+    font-size: 12pt;
+  }
+  @include respond-to($tablet-landscape){
+    font-size: 18pt;
+  }
+}
+
+.numPer{
+  height: 42px;
+  width: 308px;
+  border-radius: 1em;
+  background-color: $crema;
+  text-align: center;
+  @include respond-to($phone){
+    height: 12px;
+    width: 31px;
+  }
+  @include respond-to($tablet-landscape){
+    height: 27px;
+    width: 115px;
+  }
+}
+
+.containerFechaR{
+  padding: 0 0 0 25em;
+  @include respond-to($phone){
+    padding: 0 0 0 3em;
+  }
+  @include respond-to($tablet-landscape){
+    padding: 0 0 0 10em;
+  }
+}
+
+
+.numPerPad{
+  @include respond-to($phone){
+    margin: 0 0 0 1.3em;
+  }
+  @include respond-to($tablet-landscape){
+    margin: 0 0 0 1.3em;
+  }
+}
+
+.obtenerInfo{
+  width: 100%;
+  height: 42px;
+  margin: .4em 0 .4em;
+  border-radius: 1em;
+  background-color: $crema;
+  text-align: center;
+  @include respond-to($phone){
+    height: 22px;
+    margin: 2em 0 3em .5em;
+  }
+}
+
+.qr{
+  padding: .4em 0em 0 9.5em;
+  @include respond-to($phone){
+    padding: 0;
+    width: 1.5em;
+    margin: 0em 0 0 2em;
+  }
+  @include respond-to($tablet-landscape){
+    padding: .4em 0em 0 3.3em;
+  }
+}
+
+
+
+//footer
+
+
+.footertext{
+  text-align: center;
+  font-size: 12pt;
+  color: $crema;
+  font-family: 'Quicksand', sans-serif;
+@include respond-to($phone){
+  font-size: 0pt;
+  text-align: left;
+}
+}
+
+.socials{
+    height: 2.4em;
+  @include respond-to($phone){
+    height: .4em;
+  }
+}
+
+.footerItem{
+  display: inline;
+}
+
+.footerLink{
+  padding: .4em;
+  color: #ffffff;
+  font-size: 1.3em;
+  @include respond-to($phone){
+    font-size: 1em;
+  }
+}
+
+.footerNavigator{
+  margin: auto;
+  width: 10.5em;
+}
+
+
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: $navy;
+  padding: .4em 0 0 0;
+  @include respond-to($phone){
+    height: 4em;
+  }
+}
