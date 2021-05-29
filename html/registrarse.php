@@ -124,7 +124,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad"  id="number" alt="Numero niño"></label>
+                            <label type="submit" class="numPer numPerPad"  id="number" value="Input"></label>
                         </div>
                     </div>
                 </div>
