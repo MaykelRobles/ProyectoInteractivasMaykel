@@ -2,21 +2,26 @@
 <html lang="en">
 
 <head>
-    <title>Tropical Blast</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Activitys">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <title>Tropical Blast</title>
 </head>
 
 <nav class="navbar navbar-expand-lg navColor">
     <div class="container-fluid">
-        <a href="../index.html"><div class="logo" aria-hidden="true"></div><span class="sr-only">Logo</span></a>
+        <a href="../index.html">
+            <div class="logo" aria-hidden="true"></div><span class="sr-only">Logo</span>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -64,7 +69,7 @@
         <!--BLOQUE 1-->
         <div class="containerActivity">
             <div class="row spacer">
-                <a class="col" href="./html/detail.php">
+                <a class="col" href="./html/detail.html">
                     <div class="containerActivity1">
                         <div class="containerInfo">
                             <h2 class="subTitle">Meghan</h2>
@@ -78,7 +83,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <p class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm></p>
+                            <p class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm>
+                            </p>
                         </div>
                     </div>
                 </a>
@@ -219,7 +225,8 @@
                         </div>
                     </div>
                     <div class="containerLugar">
-                        <p class="textInfoDark lugarpad">Lugar: <spam class="textDark"> En este lugar no te vas a perder<spam>
+                        <p class="textInfoDark lugarpad">Lugar: <spam class="textDark"> En este lugar no te vas a perder
+                                <spam>
                         </p>
                     </div>
                 </a>
@@ -237,11 +244,12 @@
 
             <div class="socials">
                 <ul class="footerNavigator">
-                    
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
-                    </li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square"
+                                aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"
+                                aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter"
+                                aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
                 </ul>
             </div>
             <p class="footertext"> copyright &copy;2021 TropycalBlast. </p>
