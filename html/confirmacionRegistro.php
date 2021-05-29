@@ -102,11 +102,11 @@
 
             <div class="row">
 
-                <a class="col nextbackBttn" href="../html/registrarse.html">
+                <a class="col nextbackBttn" href="../html/registrarse.php">
                     <img class="nextbtn" alt="Imagen de boton para regresar" src="../imgs/antras.png">
                 </a>
 
-                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.html">
+                <a class="col-1 nextbackBttn" href="../html/resumenRegistro.php">
                     <img class="nextbtn" alt="Imagen de boton para seguir" src="../imgs/adelante.png">
                 </a>
             </div>
