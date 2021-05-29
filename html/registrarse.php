@@ -120,7 +120,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="text">Niño
+                            <label type="submit" class="textRegistro">Niño
                             <input class="numPer numPerPad"></input>
                             </label>
                         </div>
