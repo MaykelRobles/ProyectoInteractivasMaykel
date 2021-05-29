@@ -124,7 +124,7 @@
                         </div>
 
                         <div class="col">
-                            <label class="wpforms-field-label wpforms-label-hide numPer numPerPad" for="wpforms-75-field_1"> </label>
+                            <label type="submit" class="numPer numPerPad"  id="number" value="Input">0</label>
                         </div>
                     </div>
                 </div>
