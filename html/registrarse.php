@@ -83,7 +83,7 @@
                         <div class="col">
                             <p class="subTitulleRegistro">Cantidad de personas</p>
                         </div>
-                        
+
                         <div class="col">
                         <label type="submit" class="textRegistro">Adulto
                             <input class="numPer numPerPad"></input>
@@ -94,9 +94,6 @@
                             <label type="submit" class="textRegistro">Niño
                             <input class="numPer numPerPad"></input>
                             </label>
-                        <div class="col">
-                            <label type="submit" class="numPer numPerPad" id="number" alt="Numero niño"></label>
-                        </div>
                     </div>
                 </div>
                 <div class="lines"></div>
