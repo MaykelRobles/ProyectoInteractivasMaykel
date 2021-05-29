@@ -86,10 +86,11 @@
 
                 <div class="containerConfInfo">
                     <div class="row">
-
-                        <div class="col">
-
-                            <input class="obtenerInfo text" placeholder="Tarjeta"></input>
+                        
+                    <div class="col">
+                            <label type="submit" class="textRegistro">
+                                <input class="obtenerInfo text" placeholder="Tarjeta"></input>
+                            </label>
                         </div>
 
                         <div class="col-3">
