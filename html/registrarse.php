@@ -124,7 +124,8 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad"  id="number" value="Input">0</label>
+                            <label type="submit" class="text">0</label>
+                            <input class="numPer numPerPad"></input>
                         </div>
                     </div>
                 </div>
