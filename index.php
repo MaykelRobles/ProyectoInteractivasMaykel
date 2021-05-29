@@ -70,16 +70,15 @@
                             <h2 class="subTitle">Meghan</h2>
                             <div class="row">
                                 <div class="col">
-                                    <p class="textInfo">Pop</p>
+                                    <h3 class="textInfo">Pop</h3>
                                 </div>
                                 <div class="col-3">
                                     <div class="containerFecha">
-                                        <p class="textInfo">22/7/2021</p>
+                                        <h3 class="textInfo">22/7/2021</h3>
                                     </div>
                                 </div>
                             </div>
-                            <p class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm>
-                            </p>
+                            <p class="textInfo">Lugar:<spam class="text"> Playa Jaco, frente a marea alta.</sapm></p>
                         </div>
                     </div>
                 </a>
@@ -89,11 +88,11 @@
                             <h2 class="subTitle">Poppy</h2>
                             <div class="row">
                                 <div class="col">
-                                    <p class="textInfo">Rock</p>
+                                    <h3 class="textInfo">Rock</h3>
                                 </div>
                                 <div class="col-3">
                                     <div class="containerFecha">
-                                        <p class="textInfo">4/6/2021</p>
+                                        <h3 class="textInfo">4/6/2021</h3>
                                     </div>
                                 </div>
                             </div>
@@ -108,11 +107,11 @@
                             <h2 class="subTitle">Melanie</h2>
                             <div class="row">
                                 <div class="col">
-                                    <p class="textInfo">Alt</p>
+                                    <h3 class="textInfo">Alt</h3>
                                 </div>
                                 <div class="col-3">
                                     <div class="containerFecha">
-                                        <p class="textInfo">1/8/2021</p>
+                                        <h3 class="textInfo">1/8/2021</h3>
                                     </div>
                                 </div>
                             </div>
@@ -132,15 +131,15 @@
                 <a class="col" href="./html/detail.html">
                     <div class="containerSubAct5">
                         <div class="containerSubAct">
-                            <p class="subTitle">Titulo</p>
+                            <h2 class="subTitle">Titulo</h2>
                         </div>
                         <div class="row">
                             <div class="col-10">
-                                <p class="textInfo">Categoria</p>
+                                <h3 class="textInfo">Categoria</h3>
                             </div>
                             <div class="col">
                                 <div class="containerFechaLarge">
-                                    <p class="textInfo">1/8/2021</p>
+                                    <h3 class="textInfo">1/8/2021</h3>
                                 </div>
                             </div>
                         </div>
@@ -154,15 +153,15 @@
                 <a class="col" href="./html/detail.html">
                     <div class="containerSubAct4">
                         <div class="containerSubAct">
-                            <p class="subTitle">Titulo</p>
+                            <h2 class="subTitle">Titulo</h2>
                         </div>
                         <div class="row">
                             <div class="col-9">
-                                <p class="textInfo">Categoria</p>
+                                <h3 class="textInfo">Categoria</h3>
                             </div>
                             <div class="col">
                                 <div class="containerFechaSmall">
-                                    <p class="textInfo">1/8/2021</p>
+                                    <h3 class="textInfo">1/8/2021</h3>
                                 </div>
                             </div>
                         </div>
@@ -184,15 +183,15 @@
                 <a class="col-4" href="./html/detail.html">
                     <div class="containerSubAct7">
                         <div class="containerSubAct">
-                            <p class="subTitle">Titulo</p>
+                            <h2 class="subTitle">Titulo</h2>
                         </div>
                         <div class="row">
                             <div class="col-9">
-                                <p class="textInfo">Categoria</p>
+                                <h3 class="textInfo">Categoria</h3>
                             </div>
                             <div class="col">
                                 <div class="containerFechaSmall">
-                                    <p class="textInfo">1/8/2021</p>
+                                    <h3 class="textInfo">1/8/2021</h3>
                                 </div>
                             </div>
                         </div>
@@ -206,15 +205,15 @@
                 <a class="col" href="./html/detail.html">
                     <div class="containerSubAct6">
                         <div class="containerSubAct">
-                            <p class="subTitle">Titulo</p>
+                            <h2 class="subTitle">Titulo</h2>
                         </div>
                         <div class="row">
                             <div class="col-10">
-                                <p class="textInfo">Categoria</p>
+                                <h3 class="textInfo">Categoria</h3>
                             </div>
                             <div class="col">
                                 <div class="containerFechaLarge">
-                                    <p class="textInfo">1/8/2021</p>
+                                    <h3 class="textInfo">1/8/2021</h3>
                                 </div>
                             </div>
                         </div>
