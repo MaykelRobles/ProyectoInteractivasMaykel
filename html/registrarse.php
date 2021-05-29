@@ -89,7 +89,7 @@
                         </div>
 
                         <div class="col">
-                            <input class="numPer numPerPad"></input>
+                            <label type="submit" class="numPer numPerPad"></label>
                         </div>
 
                         <div class="col-1">
@@ -97,7 +97,7 @@
                         </div>
 
                         <div class="col">
-                            <input class="numPer numPerPad"></input>
+                            <label type="submit" class="numPer numPerPad"></label>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                         </div>
 
                         <div class="col">
-                            <input class="numPer numPerPad"></input>
+                            <label type="submit" class="numPer numPerPad"></label>
                         </div>
 
                         <div class="col-1">
@@ -124,7 +124,7 @@
                         </div>
 
                         <div class="col">
-                            <input class="numPer numPerPad"></input>
+                            <label type="submit" class="numPer numPerPad"></label>
                         </div>
                     </div>
                 </div>
