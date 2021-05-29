@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg navColor">
         <div class="container-fluid">
-            <a href="../index.php"><div class="logo"></div></a>
+            <a href="../index.html"><div class="logo" aria-hidden="true"></div><span class="sr-only">Logo</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.php">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="../html/detail.html" id="navbarDropdown" role="button"
@@ -140,10 +140,9 @@
 
             <div class="socials">
                 <ul class="footerNavigator">
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square"></i></a>
-                    </li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a></li>
+                    <li class="footerItem"><a class="footerLink" href="#"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Twitter</span></a></li>
                 </ul>
             </div>
             <p class="footertext"> copyright &copy;2021 TropycalBlast. </p>
