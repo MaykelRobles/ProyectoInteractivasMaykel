@@ -89,7 +89,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad" placeholder="0"></label>
+                            <label type="submit" class="numPer numPerPad" id="number"></label>
                         </div>
 
                         <div class="col-1">
@@ -97,7 +97,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad" placeholder="0"></label>
+                            <label type="submit" class="numPer numPerPad" id="number"></label>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad" placeholder="0"></label>
+                            <label type="submit" class="numPer numPerPad" id="number"></label>
                         </div>
 
                         <div class="col-1">
@@ -124,7 +124,7 @@
                         </div>
 
                         <div class="col">
-                            <label type="submit" class="numPer numPerPad"  placeholder="0"></label>
+                            <label type="submit" class="numPer numPerPad"  id="number"></label>
                         </div>
                     </div>
                 </div>
