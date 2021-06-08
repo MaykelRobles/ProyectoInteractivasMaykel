@@ -29,10 +29,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./index.php">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="./html/detail.html" id="navbarDropdown" role="button"
+                    <a class="nav-link dropdown-toggle" href="./html/detail.php" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </a>
@@ -69,7 +69,7 @@
         <!--BLOQUE 1-->
         <div class="containerActivity">
             <div class="row spacer">
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerActivity1">
                         <div class="containerInfo">
                             <h2 class="subTitle">Meghan</h2>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerActivity2">
                         <div class="containerInfo">
                             <h2 class="subTitle">Poppy</h2>
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerActivity3">
                         <div class="containerInfo">
                             <h2 class="subTitle">Melanie</h2>
@@ -134,7 +134,7 @@
         <!--BLOQUE 2-->
         <div class="containerActivityA">
             <div class="row spacer">
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerSubAct5">
                         <div class="containerSubAct">
                             <h2 class="subTitle">Titulo</h2>
@@ -156,7 +156,7 @@
                     </div>
                 </a>
 
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerSubAct4">
                         <div class="containerSubAct">
                             <h2 class="subTitle">Titulo</h2>
@@ -186,7 +186,7 @@
         <div class="containerActivityB">
             <div class="row spacer">
 
-                <a class="col-4" href="./html/detail.html">
+                <a class="col-4" href="./html/detail.php">
                     <div class="containerSubAct7">
                         <div class="containerSubAct">
                             <h2 class="subTitle">Titulo</h2>
@@ -208,7 +208,7 @@
                     </div>
                 </a>
 
-                <a class="col" href="./html/detail.html">
+                <a class="col" href="./html/detail.php">
                     <div class="containerSubAct6">
                         <div class="containerSubAct">
                             <h2 class="subTitle">Titulo</h2>
