@@ -66,7 +66,7 @@ body{
 
 .titles{
     font-size: 42pt;
-    color: $azul;
+    color: $navy;
     border-bottom: 5px solid $crema;
     margin: 2em .6em 1em;
     font-family: 'Trade Winds';
@@ -363,7 +363,7 @@ p{
 
 .textInfoDark{
   font-size: 16pt;
-  color: $azul;
+  color: $navy;
   font-family: 'Quicksand', sans-serif;
   @include respond-to($phone){
     font-size: 9pt;
@@ -387,7 +387,7 @@ p{
 
 .textDark{
   font-size: 12pt;
-  color: $azul;
+  color: $navy;
   font-family: 'Quicksand', sans-serif;
   @include respond-to($phone){
     font-size: 9pt;
@@ -478,6 +478,9 @@ p{
   width: 407px;
   background-color: $verde;
   border-radius: 1em;
+  background-image: url(../imgs/artista1.jpg);
+  background-size: cover;
+  background-position: center;
   @include respond-to($phone){
     width: 20em;
     height: 20em;
@@ -788,15 +791,6 @@ p{
   }
 }
 
-
-.numPerPad{
-  @include respond-to($phone){
-    margin: 0 0 0 1.3em;
-  }
-  @include respond-to($tablet-landscape){
-    margin: 0 0 0 1.3em;
-  }
-}
 
 .obtenerInfo{
   width: 100%;
