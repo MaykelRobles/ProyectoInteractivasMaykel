@@ -55,7 +55,7 @@ a {
 }
 .titles {
   font-size: 42pt;
-  color: #34656D;
+  color: #334443;
   border-bottom: 5px solid #FFFBDF;
   margin: 2em 0.6em 1em;
   font-family: "Trade Winds";
@@ -417,7 +417,7 @@ a {
 
 .textInfoDark {
   font-size: 16pt;
-  color: #34656D;
+  color: #334443;
   font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 480px) {
@@ -449,7 +449,7 @@ a {
 
 .textDark {
   font-size: 12pt;
-  color: #34656D;
+  color: #334443;
   font-family: "Quicksand", sans-serif;
 }
 @media only screen and (max-width: 480px) {
@@ -560,6 +560,9 @@ a {
   width: 407px;
   background-color: #76bd9c;
   border-radius: 1em;
+  background-image: url(../imgs/artista1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 @media only screen and (max-width: 480px) {
   .detailFoto {
@@ -934,17 +937,6 @@ a {
 @media only screen and (min-width: 768px) and (max-width: 979px) {
   .containerFechaR {
     padding: 0 0 0 10em;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .numPerPad {
-    margin: 0 0 0 1.3em;
-  }
-}
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-  .numPerPad {
-    margin: 0 0 0 1.3em;
   }
 }
 
