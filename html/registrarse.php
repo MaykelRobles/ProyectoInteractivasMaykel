@@ -121,7 +121,7 @@
 
                         <div class="col">
                             <label type="submit" class="textRegistro">Niño
-                                <input class="numPer" id="cantidadNino">></input>
+                                <input class="numPer" id="cantidadNino"></input>
                             </label>
                         </div>
 
